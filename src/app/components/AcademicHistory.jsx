@@ -3,7 +3,7 @@ import { education } from "../../data/data";
 export default function AcademicHistory() {
     return (
         <>
-            <div className="mt-10 scroll-mt-14" id="experience">
+            <div className="mt-10 scroll-mt-14" id="education">
                 <h2 className="text-xl font-medium before:content-['>'] before:mr-1">Education</h2>
                 <div className="mt-6">
                     <ol className="relative space-y-8 before:absolute before:-ml-px before:h-full before:w-0.5 before:rounded-full before:bg-gray-200 dark:before:bg-gray-500 mt-4 p-2">

@@ -1,7 +1,7 @@
 export const about = {
     name: "Akio Hamamura Jr",
     role: "Software Developer / Quantitative Trader",
-    about: "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
+    about: "Hello, I am a software developer based in Japan, ",
     email: "akiohmjr@gmail.com",
 };
 
@@ -25,7 +25,8 @@ export const skills = [
 ];
 
 export const socials = {
-    github: "https://github.com/sachinbhujel",
+    github: "https://github.com/AkioHamamura",
+    linkedin: "https://www.linkedin.com/in/akio-hamamura-168719192/",
     //twitter: "https://twitter.com/sachinbhujel909",
     //instagram: "https://www.instagram.com/imsachinbhujel",
     //facebook: "https://www.facebook.com/imsachinbhujel",

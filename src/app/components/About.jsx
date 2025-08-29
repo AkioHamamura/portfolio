@@ -19,8 +19,8 @@ export default function About() {
                             className="font-bold hover:underline cursor-pointer"
                         >
                             (Email)
-                        </a>{" "}
-                        I’d love to hear from you.
+                        </a>{" "} to akiohmjr@gmail.com or click on the contact button at the top of the page.
+
                     </p>
                 </div>
             </div>
