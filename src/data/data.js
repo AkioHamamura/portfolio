@@ -2,7 +2,7 @@ export const about = {
     name: "Akio Hamamura Jr",
     role: "Software Developer / Quantitative Trader",
     about: "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
-    email: "your.email@example.com",
+    email: "akiohmjr@gmail.com",
 };
 
 export const seo = {
@@ -26,9 +26,9 @@ export const skills = [
 
 export const socials = {
     github: "https://github.com/sachinbhujel",
-    twitter: "https://twitter.com/sachinbhujel909",
-    instagram: "https://www.instagram.com/imsachinbhujel",
-    facebook: "https://www.facebook.com/imsachinbhujel",
+    //twitter: "https://twitter.com/sachinbhujel909",
+    //instagram: "https://www.instagram.com/imsachinbhujel",
+    //facebook: "https://www.facebook.com/imsachinbhujel",
 };
 
 export const projects = {
@@ -82,24 +82,37 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Frontend Developer at Tech Solutions",
+        title: "Frontend Developer at Computer Futures",
         description:
-            "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
-        date: "15/01/2024",
+            "Working on building web applications using React and Typescript, work includes building frontend components, fetching data from REST APIs, etc.",
+        date: "May 2025 - Present",
     },
     {
-        title: "Web Developer Intern at Creative Studio",
+        title: "Teaching assistant at Southeast Missouri State University",
         description:
-            "Assisted in designing website layouts, wrote clean HTML/CSS code, and collaborated with the team on JavaScript features for client projects.",
-        date: "10/06/2023",
+            "Assisted faculty members of the Computer Science department in teaching courses such Introduction to Programming, Data Structures, Cyber security, etc",
+        date: "August 2024 - August 2025",
     },
     {
-        title: "Junior Developer at Innovate Labs",
+        title: "Web Developer at Newman Educational",
         description:
-            "Developed and tested frontend components, optimized web pages for speed, and contributed to team code reviews and debugging sessions.",
-        date: "01/09/2022",
+            "Designed and developed frontend websites for multiple clients as well as maintained and updated existing websites. Worked with ",
+        date: "April 2024 - August 2025",
     },
 ];
+
+export const education = [
+    {
+        title: "Masters in Applied Computer Science",
+        description: "Southeast Missouri State University",
+        date: "August 2024 - May 2025",
+    },
+    {
+        title: "Bachelor of Science in Computer Science",
+        description: "Southeast Missouri State University",
+        date: "January 2020 - May 2024",
+    },
+]
 
 export const blogs = [
     {

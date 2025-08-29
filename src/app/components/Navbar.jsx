@@ -55,6 +55,7 @@ export default function Navbar() {
                                 </li>
                             </ul>
 
+                            {/*
                             <Link
                                 href="/blogs"
                                 className="hover:underline hidden sm:block"
@@ -68,6 +69,7 @@ export default function Navbar() {
                             >
                                 {blogs ? "Home" : "Blogs"}
                             </Link>
+                            */}
                         </div>
                         <div className="flex items-center gap-2">
                             <button
