@@ -83,22 +83,28 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Frontend Developer at Computer Futures",
+        title: "Frontend Developer at Computer Futures - Japan, Hybrid",
         description:
             "Working on building web applications using React and Typescript, work includes building frontend components, fetching data from REST APIs, etc.",
         date: "May 2025 - Present",
     },
     {
-        title: "Teaching assistant at Southeast Missouri State University",
+        title: "Teaching assistant at Southeast Missouri State University - United States, Missouri",
         description:
             "Assisted faculty members of the Computer Science department in teaching courses such Introduction to Programming, Data Structures, Cyber security, etc",
         date: "August 2024 - August 2025",
     },
     {
-        title: "Web Developer at Newman Educational",
+        title: "Web Developer at Newman Educational - United States, Missouri",
         description:
-            "Designed and developed frontend websites for multiple clients as well as maintained and updated existing websites. Worked with ",
+            "Designed and developed frontend websites for multiple clients as well as maintained and updated existing websites.",
         date: "April 2024 - August 2025",
+    },
+    {
+        title: "Unity UI/UX Programmer at OctoGame Heavy - Brazil, Remote",
+        description:
+            "Implemented UI/UX design specifications for games made in Unity. Worked with a team of 5 developers to create a 2.5D Fighting game in Unity with C#. Also worked on an implementation of a Peer To Peer netcode system through the GGPO library.",
+        date: "May 2020 - January 2021",
     },
 ];
 

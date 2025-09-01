@@ -47,6 +47,14 @@ export default function Navbar() {
                                 </li>
                                 <li>
                                     <Link
+                                        href="/#education"
+                                        className="hover:underline"
+                                    >
+                                        Education
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
                                         href="/contact"
                                         className="hover:underline"
                                     >

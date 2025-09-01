@@ -1,12 +1,14 @@
 import { socials } from "@/data/data";
 import { about } from "@/data/data";
+import Image from "next/image";
+import pfp from '@/data/IMG_8911.jpg'
 
 export default function Profile() {
     return (
         <>
-            <img
-                src="https://i.imgur.com/zjGPTRC.jpeg"
-                className="w-[70px] h-[70px] rounded-[50%] object-cover object-center"
+            <Image
+                src={pfp}
+                className="w-[90px] h-[90px] rounded-[50%] object-cover object-center"
                 alt={`${about.name}'s profile`}
             />
             <div className="flex gap-[5px] items-center mt-1">
