@@ -1,13 +1,13 @@
 export const about = {
     name: "Akio Hamamura Jr",
-    role: "Software Developer / Quantitative Trader",
-    about: "Hello, I am a software developer based in Japan, ",
+    role: "Software Developer",
+    about: "Hello, I am a software developer based in Japan, this page is mostly used for my portfolio of projects, but It also serves as a resume.",
     email: "akiohmjr@gmail.com",
 };
 
 export const seo = {
-    title: "Minimal, clean Next.js portfolio template",
-    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
+    title: "About Me",
+    description: "I am primarily a software developer based in Japan, but I also enjoy developing video games, this page is mostly used for my portfolio of projects, but It also serves as a resume.",
     keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
 }
 
@@ -27,55 +27,55 @@ export const skills = [
 export const socials = {
     github: "https://github.com/AkioHamamura",
     linkedin: "https://www.linkedin.com/in/akio-hamamura-168719192/",
-    //twitter: "https://twitter.com/sachinbhujel909",
-    //instagram: "https://www.instagram.com/imsachinbhujel",
-    //facebook: "https://www.facebook.com/imsachinbhujel",
 };
 
 export const projects = {
     pinProjects: [
         {
-            title: "Project 1",
+            title: "S3B - Quantitative Trading Strategy Backtesting on serverless infrastructure",
             description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
-            link: "",
+                "A Fork of the QuantDash backtesting framework that allows for backtesting of strategies and viewing values of different stocks on real time on a serverless infrastructure, without requiring the user to set up a local environment. Built using AWS Lambda, AWS DynamoDB, and AWS S3.",
+            tags: ["AWS", "React Js", "Python", "Node.Js", "Serverless", "Docker", "Full stack"],
+            link: "https://master.d1suu5zul1cid8.amplifyapp.com/",
         },
         {
-            title: "Project 2",
+            title: "Ant Colony AI Simulation",
             description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
+                "A real-time simulation in C# / Unity that showcases the swarm intelligence of an Ant colony foraging food in a\n" +
+                "dynamic environment via the ant colony algorithm for dynamic pathfinding and resource collection.",
+            tags: ["C#", "Unity", "Artificial Intelligence", "Path Planning", "Decentralized Intelligence"],
+            link: "https://www.youtube.com/watch?v=alXqoHlLl9o",
         },
         {
-            title: "Project 3",
+            title: "Mizzou Smart Greenhouse - Monitoring of soybean production",
             description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
+                "Implemented an Embedded IoT temperature and moisture monitoring system for Soybeans, the project involved the development of an automated update system with Flask and SQL server to push C code updates to each IoT unit ",
+            tags: ["Flask", "SQL", "Internet of Things", "Embedded"],
+            link: "https://moaes.missouri.edu/t-e-jake-fisher-delta-research-extension-and-education-center/",
+        },
+        {
+            title: "Satellite TV Uplink - Mitre Embedded CTF 2025",
+            description:
+                "Led an Agile sub-team of 3 through Jira to debug, design and develop a Satellite TV uplink system. Implemented a communication protocol with AES encryption and decryption with Python for the encoder and\n" +
+                "C for decoder component.",
+            tags: ["Python", "C", "Docker", "AES-256", "Internet of Things", "Embedded", "Hackaton"],
+            link: "https://ectf.mitre.org/",
         },
     ],
     otherProjects: [
         {
-            title: "Project 4",
+            title: "Apartment Resident management dashboard ",
             description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
+                "Relational database project with the objective of showcasing database skills by developing an application to enable digital property management. Used a Node.js middleware to link a React frontend to a MySQL backend hosted on AWS, enabling secure\n" +
+                "RESTful API calls to be made.",
+            tags: ["CRUD", "Full Stack", "JWT", "Node.js", "Javascript", "MySQL", "AWS", "Database" ],
             link: "",
         },
         {
-            title: "Project 5",
+            title: "Image Background remover",
             description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
-        {
-            title: "Project 6",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
+                "Deployed Python Machine Learning model that processes images in an AWS Cloud environment. Containerized application using Docker and used ECR, to manage docker images and EC2 updates. Set up Load balancing and Auto scaling for EC2, enabling fast response during traffic spikes.",
+            tags: ["CSS", "React Js", "Full Stack", "AWS", "Docker", "Microservice architecture", "Machine Learning", "SaaS"],
             link: "",
         },
     ],
@@ -89,16 +89,16 @@ export const experience = [
         date: "May 2025 - Present",
     },
     {
-        title: "Teaching assistant at Southeast Missouri State University - United States, Missouri",
+        title: "Web Developer at Newman Educational - United States, Missouri, Remote",
         description:
-            "Assisted faculty members of the Computer Science department in teaching courses such Introduction to Programming, Data Structures, Cyber security, etc",
-        date: "August 2024 - August 2025",
+            "Designing and developing frontend websites for multiple clients as well as maintaining websites for existing projects.",
+        date: "April 2024 - Present",
     },
     {
-        title: "Web Developer at Newman Educational - United States, Missouri",
+        title: "Teaching assistant at Harrison College of Business and Computing - United States, Missouri",
         description:
-            "Designed and developed frontend websites for multiple clients as well as maintained and updated existing websites.",
-        date: "April 2024 - August 2025",
+            "Assisted faculty members of the Computer Science department in teaching courses such Introduction to Programming, Data Structures, Cyber security, etc",
+        date: "August 2024 - May 2025",
     },
     {
         title: "Unity UI/UX Programmer at OctoGame Heavy - Brazil, Remote",

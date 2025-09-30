@@ -12,7 +12,7 @@ export default function About() {
                         {about.about}
                     </p>
                     <p className="text-base text-base-content/80">
-                        If you’ve got any questions or just feel like chatting,
+                        If you’ve got any questions or would like to contact me for any reason, feel free to{" "}
                         send me an{" "}
                         <a
                             href={`mailto:${about.email}`}
